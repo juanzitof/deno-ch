@@ -9,7 +9,7 @@ router.get('/', (ctx) => {
           <html>
             <body>
               <form action="/" method="POST">
-                <div>
+                              <div>
                   <label for="color">Ingrese su color</label>
                   <input type="text" placeholder="Ingrese el nombre" name="color" required>
                   <button type="submit">Enviar</button>
